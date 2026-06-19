@@ -1,7 +1,9 @@
 import random
+MIN=1
+MAX=100
 
 # Generar un número secreto entre 1 y 100
-numero_secreto = random.randint(1, 100)
+numero_secreto = random.randint(MIN,MAX)
 
 intentos = 0
 adivino = False
